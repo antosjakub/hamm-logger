@@ -1,0 +1,25 @@
+.Item {
+  background-color: DodgerBlue;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.add_food {
+  margin: 10px;
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
