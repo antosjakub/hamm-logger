@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Item from './Item.js'
+import Form from './Form.js'
 import styles from "./index.module.css";
 
 
@@ -15,6 +16,7 @@ const HTML_body = (
         <button className={styles.add_food}>Add</button>
         <button className={styles.add_food}>Create</button>
       </div>
+      <Form></Form>
       <Item name="Avocado"></Item>
       <Item name="Burrata"></Item>
     </div>
